@@ -1,0 +1,24 @@
+body{
+ background-color: #3c1f4c;
+  font-family: Orbitron;
+}
+
+.container {
+  
+  
+  margin-top: 10%;
+  margin-bottom:10%;
+  width: 380px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #cecece;
+  border: 8px solid #848484;
+  
+}
+
+.timers p  {
+  display: inline-block;
+}
+.functionalButtons p{
+  display: inline-block;
+}

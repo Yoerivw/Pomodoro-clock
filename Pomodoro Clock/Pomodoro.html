@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodor clock</title>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="javascript.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<div class="container">
+  <h1>Pomodoro Clock</h1>
+  
+  <div id="clock">
+    <div  class="functionalButtons">
+      <p class="btn btn-primary" id="pomoTime">Pomodoro</p> <p class="btn" id="breakTime">Break</p> 
+    </div>
+    <div id="timeBlock">
+      <span class="minutes"></span>
+      <span class="seconds"></span>
+      <audio id="buzzer">
+  <source src="https://dl.dropboxusercontent.com/u/108780285/Buzz-KP-943139131.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>
+    </div>
+    
+    
+     <div class="timers">
+       <div id="pomodorotimer"> <p class="btn timer" id="minusP">-</p>  <p id="pomodoro" class="timer"></p>  <p class="btn" id="plusP" class="timer">+</p></div>
+       <div id="breaktimer"> <p class="btn" id="minusB" class="timer">-</p><p id="break" class="timer"></p><p class="btn" id="plusB" class="timer">+</p> </div>   
+    </div>
+    
+    
+    
+    <div><p class="btn" id="start">Start</p><p class="btn" id="reset">Reset</p></div>
+    <div id"status"></div>
+ 
+  </div>
+  
+  
+</div>
+</body>
+</html>
+
+
